@@ -15,7 +15,7 @@ function Slide1() {
                                 <button className="py-2 px-7 rounded-md bg-white text-[16px] font-[600] cursor-pointer hover:bg-none hover:bg-[#1DAEFF] hover:text-white">Rent</button>
                             </div>
 
-                            <div className="flex items-center bg-white rounded-md shadow-xl shadow-[#99f5df1a]">
+                            <div className="flex flex-row px-1 items-center bg-white rounded-md shadow-xl shadow-[#99f5df1a]">
                                 <input
                                     type="text"
                                     placeholder="Enter keyword here ..."
@@ -23,12 +23,23 @@ function Slide1() {
 
                                 <div className="h-6 w-px "></div>
 
-                                <select className=" bg-white border-l-2 border-[#3A8BEA] pr-3  px-2  w-[215px] text-[17px] text-[#6A6A6A] font-[500]">
-                                    <option>Select Location</option>
-                                    <option>Baku</option>
-                                    <option>Ganja</option>
-                                </select>
+                                <div className="relative flex  w-[215px]">
+                                    <div className="relative w-[215px]">
+                                        <select className="w-full bg-white text-[17px] text-[#6A6A6A] font-[500] appearance-none py-2 pl-3">
+                                            <option>Select Location</option>
+                                            <option>Baku</option>
+                                            <option>Ganja</option>
+                                        </select>
+                                        <div className="absolute top-1/2 -translate-y-1/2 left-0 h-[50%] w-[2px] bg-[#3A8BEA]"></div>
+                                    </div>
 
+
+                                    <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
+                                        <svg className="w-4 h-4 text-[#3A8BEA]" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="flex flex-row justify-around  px-5 ml-2 mt-[40px] rounded-md h-[65px] w-[170px]  bg-white  items-center">
@@ -41,7 +52,7 @@ function Slide1() {
                     </div>
                 </div>
 
-                <div className="relative  ">
+                <div className="relative top-12  ">
                     <div className="flex justify-center items-center w-[385px] h-[270px] rounded-3xl bg-white mt-14 relative z-10">
                         <img src="/3.jpg" alt="" className="rounded-2xl w-[365px] h-[250px]" />
                     </div>
