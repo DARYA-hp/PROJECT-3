@@ -1,7 +1,7 @@
 function Header(){
     return(
         <>
-        <div className=" flex flex-row  justify-between px-[75px] py-7 ">
+        <div className=" flex flex-row  justify-between px-[75px] pt-6 ">
             <div>
                 <img src="/Logo (1).png" alt="" />
             </div>
