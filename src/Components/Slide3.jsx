@@ -18,7 +18,7 @@ function Slide3() {
 
                 <div className="pt-14 flex flex-row flex-wrap justify-between px-28 gap-y-8">
                     {properties.map((property, index) => (
-                        <div key={index} className="flex-row pl-10 items-center border-[2.5px] border-[#DCDCEB] rounded-3xl w-[545px] h-[250px] flex">
+                        <div key={index} className="flex-row bg-white pl-10 items-center border-[2.5px] border-[#DCDCEB] rounded-3xl w-[545px] h-[250px] flex">
                             <div>
                                 <img src={property.img} alt="" className="object-cover rounded-2xl w-[162px] h-[192px]" />
                             </div>
