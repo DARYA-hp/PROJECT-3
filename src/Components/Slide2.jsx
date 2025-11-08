@@ -1,15 +1,15 @@
 function Slide2() {
     return (
         <>
-            <div className=" pt-28   flex flex-row justify-between px-32 ">
+            <div className=" pt-28   flex flex-row justify-between px-28 ">
                 <div>
-                    <img src="/6.png" alt="" className=" w-[558px] h-[470px]" />
+                    <img src="/6.png" alt="" className=" w-[538px] h-[494px]" />
                 </div>
-                <div className="flex flex-col pr-16 ">
+                <div className="flex flex-col   ">
                     <img src="/5.png" alt="" className=" w-[63px] h-[67px]" />
-                    <div className=" w-[560px]">
-                        <p className=" text-[48px] font-[600] pt-3">Fusce placerat enim et odio molestie sagittis</p>
-                        <p className=" text-[22px] font-[400] text-[#585981DE]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                    <div className=" py-3 w-[560px]">
+                        <p className=" leading-[1.3] text-[48px] font-[600] pt-3">Fusce placerat enim et odio molestie sagittis</p>
+                        <p className=" text-[22px] pt-8 font-[400] text-[#585981DE]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                 </div>
             </div>
@@ -30,17 +30,17 @@ function Slide2() {
                 <div className=" flex text-center justify-center">
                     <p className=" w-[480px] text-[38px] font-[600]">We are available in many well-known countries</p>
                 </div>
-                <div className=" flex flex-row justify-between px-36 pt-14 ">
-                    <div className=" bg-[url('/9.jpg')] w-[280px] h-[426px] bg-cover rounded-3xl">
+                <div className=" flex flex-row justify-between px-28 pt-14 ">
+                    <div className=" bg-[url('/9.jpg')] w-[260px] h-[410px] bg-cover rounded-3xl">
                        <p className="text-[24px] font-[600] text-center pt-12">AMERICA</p>
                     </div>
-                    <div className=" bg-[url('/10.jpg')] w-[280px] h-[426px] bg-cover rounded-3xl">
+                    <div className=" bg-[url('/10.jpg')] w-[260px] h-[410px] bg-cover rounded-3xl">
                        <p className="text-[24px] font-[600] text-center pt-12">SPAIN</p>
                     </div>
-                    <div className=" bg-[url('/11.jpg')] w-[280px] h-[426px] bg-cover rounded-3xl">
+                    <div className=" bg-[url('/11.jpg')] w-[260px] h-[410px] bg-cover rounded-3xl">
                        <p className="text-[24px] font-[600] text-center pt-12">LONDON</p>
                     </div>
-                    <div className=" bg-[url('/12.jpg')] w-[280px] h-[426px] bg-cover rounded-3xl">
+                    <div className=" bg-[url('/12.jpg')] w-[260px] h-[410px] bg-cover rounded-3xl">
                        <p className="text-[24px] font-[600] text-center pt-12">FRANCE</p>
                     </div>
                 </div>
