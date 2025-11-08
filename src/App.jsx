@@ -1,6 +1,7 @@
 import Header from "./Components/Header"
 import Slide1 from "./Components/Slide1"
 import Slide2 from "./Components/Slide2"
+import Slide3 from "./Components/Slide3"
 
 function App(){
   return(
@@ -8,6 +9,7 @@ function App(){
     <Header/>
     <Slide1/>
     <Slide2/>
+    <Slide3/>
     </>
   )
 }
