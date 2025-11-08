@@ -41,7 +41,7 @@ function Slide1() {
                     </div>
                 </div>
 
-                <div className="relative  ">
+                <div className="relative mt-12  ">
                     <div className="flex justify-center items-center w-[385px] h-[270px] rounded-3xl bg-white mt-14 relative z-10">
                         <img src="/3.jpg" alt="" className="rounded-2xl w-[365px] h-[250px]" />
                     </div>
