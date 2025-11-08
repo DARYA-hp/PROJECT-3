@@ -1,7 +1,7 @@
 function Slide2() {
     return (
         <>
-            <div className=" pt-28   flex flex-row justify-between px-28 ">
+            <div className=" pt-28 relative  flex flex-row justify-between px-28 ">
                 <div>
                     <img src="/6.png" alt="" className=" w-[538px] h-[494px]" />
                 </div>
@@ -12,6 +12,7 @@ function Slide2() {
                         <p className=" text-[22px] pt-8 font-[400] text-[#585981DE]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                 </div>
+                <img src="/green.png" alt="" className=" absolute right-0 bottom-64" id="test" />
             </div>
 
             <div className=" flex flex-row justify-between px-36 pt-28">

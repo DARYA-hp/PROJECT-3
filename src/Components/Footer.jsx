@@ -41,7 +41,7 @@ function Footer() {
                 <div>
                     <p className=" text-[20px] font-[600]">Subscribe</p>
                     <p className=" pt-6 text-[#8F90A6] w-[255px]">Subscribe to get latest property, blog news from us</p>
-                    <div className="flex flex-row items-center  justify-between px-4 border-[2gpx] border-[#D0D0E3] rounded-xl mt-7 py-2">
+                    <div className="flex flex-row items-center  justify-between px-4 border-[2px] border-[#D0D0E3] rounded-xl mt-7 py-2">
                         <input type="text" placeholder="Email Address" className=" outline-none" />
                         <BsArrowRightCircleFill className=" text-[32px] text-[#1DAEFF]"/>
                     </div>
