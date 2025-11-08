@@ -9,6 +9,7 @@ function Slide3() {
     ];
 
     return (
+        <>
         <div className="pt-28">
             <div className="flex flex-row justify-between px-36">
                 <p className="text-[38px] font-[600]">Recently Added</p>
@@ -37,6 +38,24 @@ function Slide3() {
                 ))}
             </div>
         </div>
+
+         <div className="px-28 pt-28">
+                <div className=" rounded-3xl bg-gradient-to-b from-[#1DAEFF] to-[#ddeefc] h-[480px]   flex flex-row justify-between ">
+                    <div className=" pl-16 pt-20  ">
+                        <p className=" text-[54px] w-[400px]  font-[600]">Find your best Real Estate</p>
+                        <p className="pt-8 w-[470px] text-[22px] font-[400] text-[#585981]">We provide a complete service for the sale, purchase or rental of real estate.</p>
+                        <div className=" pt-8">
+                            <button className=" text-white font-[550] bg-[#1DAEFF] px-12 rounded-xl py-2">Contact Us</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="/19.jpg" alt="" className="rounded-3xl  h-[480px] w-[605px]" />
+                    </div>
+
+                </div>
+            </div>
+            </>
     );
 }
 
