@@ -1,4 +1,20 @@
+import { GiCheckMark } from "react-icons/gi";
 function ProDesc() {
+      const check = [
+    { icon: <GiCheckMark />, text: "2 Stories" },
+    { icon: <GiCheckMark />, text: "Central Heating" },
+    { icon: <GiCheckMark />, text: "Fire Place" },
+    { icon: <GiCheckMark />, text: "Lawn" },
+    { icon: <GiCheckMark />, text: "Bike Path" },
+    { icon: <GiCheckMark />, text: "Dual Sinks" },
+    { icon: <GiCheckMark />, text: "Home Theater" },
+    { icon: <GiCheckMark />, text: "Marble Floors" },
+    { icon: <GiCheckMark />, text: "Central Cooling" },
+    { icon: <GiCheckMark />, text: "Electric Range" },
+    { icon: <GiCheckMark />, text: "Laundry Room" },
+    { icon: <GiCheckMark />, text: "Swimming Pool" },
+  ];
+
     return (
         <>
 
