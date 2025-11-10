@@ -41,8 +41,8 @@ function Slide1() {
                             </div>
 
                         </div>
-                        <div className="flex flex-row justify-around  ml-2 mt-[40px] rounded-md px-4 bg-white items-center">
-                            <LiaSlidersHSolid className="text-[#1DAEFF] text-[37px] " />
+                        <div className="flex flex-row justify-around  ml-2 mt-[40px] rounded-md px-3 bg-white items-center">
+                            <LiaSlidersHSolid className="text-[#1DAEFF] text-[34px] mr-3 " />
                             <button className="flex items-center px-4 py-[13px] rounded-md justify-center bg-[#1DAEFF] text-white">
                                 <Search className="mr-1" /> Search
                             </button>
