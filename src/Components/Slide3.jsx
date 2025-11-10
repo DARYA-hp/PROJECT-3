@@ -56,7 +56,7 @@ function Slide3() {
             </div>
 
             <div className="px-28 pt-28">
-                <div className="rounded-3xl bg-gradient-to-b from-[#C3DFED] to-[#DFF0F7] h-[480px] flex flex-row justify-between">
+                <div className="rounded-3xl bg-gradient-to-b from-[#a1cadf] to-[#e5f2f8] h-[480px] flex flex-row justify-between">
                     <div className="pl-16 pt-20">
                         <p className="text-[54px] w-[400px] font-[600]">Find your best Real Estate</p>
                         <p className="pt-8 w-[470px] text-[22px] font-[400] text-[#585981]">
@@ -70,7 +70,7 @@ function Slide3() {
                     </div>
 
                     <div>
-                        <img src="/19.jpg" alt="" className="rounded-3xl h-[480px] w-[605px]" />
+                        <img src="/19.jpg" alt="" className="rounded-r-3xl h-[480px] w-[605px]" />
                     </div>
                 </div>
             </div>
