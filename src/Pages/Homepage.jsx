@@ -8,10 +8,10 @@ function HomePage() {
         <>
             <div className="relative overflow-hidden">
 
-                 <img src="/green.png" alt="" className="absolute top-[621px] right-0 -z-10" />
-                 <img src="/orange.png" alt="" className="absolute top-[1600px] left-0 -z-10" />
-                 <img src="/orange.png" alt="" className="absolute top-[2770px]  -z-10" />
-                 <img src="/green.png" alt="" className="absolute top-[3420px] right-0 -z-10" />
+                 <img src="/green.png" alt="" className="absolute top-[560px] right-0 -z-10" />
+                 <img src="/orange.png" alt="" className="absolute top-[1500px] left-0 -z-10" />
+                 <img src="/orange.png" alt="" className="absolute top-[2670px]  -z-10" />
+                 <img src="/green.png" alt="" className="absolute top-[3350px] right-0 -z-10" />
 
                 
                 <Slide1/>
