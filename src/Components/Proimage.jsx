@@ -16,8 +16,7 @@ function ProImage() {
   ];
     return (
         <>
-
-            <div>
+            <div className=" pt-28 pl-28">
                 <div>
                     <img src="/20.jpg" alt="" className="rounded-3xl w-[860px] h-[477px]" />
                 </div>
