@@ -11,12 +11,12 @@ function Product() {
     <>
       <div className="relative overflow-visible">
         <img src="/orange.png" alt="" className="absolute top-[1100px] left-0 -z-10" />
-        <img src="/green.png" alt="" className="absolute top-[120px] right-[-30px] -z-10" />
+        <img src="/green.png" alt="" className="absolute top-[80px] right-[-30px] -z-10" />
 
         <ProImage />
         <ProDesc />
 
-        <div className="pt-28 pl-28">
+        <div className="pt-20 pl-28">
           <p className="text-[#1DAEFF] text-[20px] font-[600] mb-[30px]">
             Property on Map
           </p>
