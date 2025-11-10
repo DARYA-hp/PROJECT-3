@@ -20,22 +20,17 @@ function Slide3() {
                     {properties.map((property) => (
                         <div
                             key={property.id}
-                            className={`flex-row bg-white pl-10 items-center border-[2.5px] rounded-3xl w-[545px] h-[250px] flex relative transition-all duration-300 ${
-                                property.id === 1
-                                    ? "border-[#1DAEFF] shadow-[0_4px_25px_#6b728040]"
-                                    : "border-[#c3c3cc]"
-                            }`}
+                            className="flex-row bg-white pl-10 items-center border-[2.5px] border-[#c3c3cc] rounded-3xl w-[545px] h-[250px] flex relative transition-all duration-300 hover:border-[#1DAEFF] hover:shadow-[0_4px_25px_#6b728040]"
                         >
-                            <div className="relative">
+                            <div className="relative group">
                                 <img
                                     src={property.img}
                                     alt=""
-                                    className="object-cover rounded-2xl w-[162px] h-[192px]"
+                                    className="object-cover rounded-2xl w-[162px] h-[192px] transition-all duration-300"
                                 />
-                                {property.id === 1 && (
-                                    <div className="absolute inset-0 bg-[#0aceff55] rounded-2xl"></div>
-                                )}
+                                <div className="absolute inset-0 rounded-2xl bg-transparent transition-all duration-300 group-hover:bg-[#0aceff55]"></div>
                             </div>
+
                             <div className="pl-10 flex flex-col gap-4">
                                 <p className="w-[280px] text-[28px] font-[650]">{property.title}</p>
                                 <div className="text-[17px] font-[520] text-[#8F90A6] flex flex-row gap-x-8 pr-5">
