@@ -1,4 +1,4 @@
-function MarketHeader(){
+statusfunction MarketHeader(){
     return(
         <>
         <div className=" flex flex-row bg-[#80B2DF] justify-around w-full h-[335px] items-center">
