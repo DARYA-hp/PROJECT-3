@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { ArraySlide } from "../Array/Array";
+import { ArraySlide } from "../ArrayAboutUs";
 import { IoCaretBackSharp, IoCaretForwardSharp } from "react-icons/io5";
 import "swiper/css";
 import "swiper/css/navigation";
