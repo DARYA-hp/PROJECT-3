@@ -1,7 +1,7 @@
-import AboutHeader from "../components/AboutHeader"
-import AboutS1 from "../components/AboutS1"
-import AboutS2 from "../components/AboutS2"
-import AboutSlide3 from "../components/AboutS3"
+// import AboutHeader from "../Components/"
+import AboutS1 from "../Components/AboutS1"
+import AboutS2 from "../Components/AboutS2"
+import AboutSlide3 from "../Components/AboutSlide3"
 
 function AboutUs1(){
     return(
