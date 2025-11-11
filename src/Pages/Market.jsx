@@ -1,6 +1,5 @@
-import MarketHeader from "../Header"
-import MarketS2 from "../Pages/MarketS2"
-
+import MarketHeader from "../Components/MarketHeader"
+import MarketS1 from "../Components/MarketS1"
 function Market() {
     return (
         <>
@@ -11,7 +10,7 @@ function Market() {
             <img src="/image7.png" alt="" className=" w-64 h-60 absolute -right-20 top-[700px] translate-y-1/2 z-0" /> */}
 
                <MarketHeader />
-                <MarketS2 />
+                <MarketS1/>
               
                 {/* <img src="/image7.png" alt="" className=" w-56 h-52 absolute -left-28 bottom-64 -translate-y-1/2 z-0" />
                 <img src="/image8.png" alt="" className=" w-24 h-24 absolute left-2 bottom-96 -z-10" />
