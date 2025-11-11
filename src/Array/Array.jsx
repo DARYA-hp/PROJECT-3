@@ -1,6 +1,6 @@
 export const properties = [
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -9,7 +9,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -18,7 +18,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -27,7 +27,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -36,7 +36,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -45,7 +45,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -54,7 +54,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -63,7 +63,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,
@@ -72,7 +72,7 @@ export const properties = [
       price: "$45,545",
     },
     {
-      image: "/image1.png",
+      image: "/image2.png",
       address: "103/143 West Street, Crows Nest",
       bedrooms: 10,
       area: 150,

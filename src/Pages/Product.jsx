@@ -11,7 +11,7 @@ function Product() {
     <>
       <div className="relative overflow-visible">
         <img src="/orange.png" alt="" className="absolute top-[1100px] left-0 -z-10" />
-        <img src="/green.png" alt="" className="absolute top-[80px] right-[-30px] -z-10" />
+        <img src="/green.png" alt="" className="absolute top-[80px] right-0 -z-10" />
 
         <ProImage />
         <ProDesc />
