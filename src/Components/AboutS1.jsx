@@ -5,8 +5,8 @@ import { TiTick } from "react-icons/ti";
 
 function AboutS1() {
     return (
-        <div className="w-full bg-white transition-colors duration-300">
-            <div className=" pl-24 pt-28">
+        <div className="relative w-full bg-white transition-colors duration-300">
+            <div className=" pl-20 pt-28">
                 <div className="grid lg:grid-cols-2 items-center justify-around">
                     <div className="relative">
                         <div>
@@ -50,12 +50,12 @@ function AboutS1() {
                         </div>
                     </div>
 
-                    <div className=" pl-16">
+                    <div className="">
                         <div className="flex pt-10">
                             <img src="public/5.png" alt=""/>
                         </div>
                         <div className="py-10">
-                            <h1 className="text-5xl font-semibold text-[#000000DE] leading-[70px] w-[80%]">
+                            <h1 className="text-5xl font-semibold text-[#000000DE] leading-[70px] w-[90%]">
                                 Fusce placerat enim et odio molestie sagittis
                             </h1>
                             <p className="text-[#585981DE] text-2xl font-normal leading-9 py-4 w-[85%]">

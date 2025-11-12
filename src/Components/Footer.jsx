@@ -6,7 +6,7 @@ import { BsArrowRightCircleFill } from "react-icons/bs";
 function Footer() {
     return (
         <>
-            <div className=" pt-36 pb-14 px-28 flex flex-row justify-between">
+            <div className="relative overflow-hidden pt-36 pb-14 px-28 flex flex-row justify-between">
                 <div>
                     <img src="/Logo (1).png" alt="" />
                     <p className=" pt-6 text-[#8F90A6] leading-[2] w-[430px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

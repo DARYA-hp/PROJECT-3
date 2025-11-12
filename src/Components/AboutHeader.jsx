@@ -1,7 +1,7 @@
 function AboutHeader() {
     return (
         <>
-            <div className=" flex flex-row mt-10 bg-[#80B2DF] justify-around w-full h-[335px] items-center">
+            <div className=" relative flex flex-row mt-10 bg-[#80B2DF] justify-around w-full h-[335px] items-center">
                 <div className="  items-center pl-28">
                     <div>
                         <h1 className=" text-6xl font-semibold font-Montserrat text-[#FFFFFF] leading-[100%] pb-5">About us</h1>

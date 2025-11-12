@@ -8,6 +8,10 @@ function AboutUs1() {
         <>
             <div className=" relative overflow-hidden">
 
+                <img src="/green.png" alt="" className="absolute top-[700px] right-0 z-[1] pointer-events-none" />
+                <img src="/orange.png" alt="" className="absolute top-[1700px] left-0 z-[1] pointer-events-none" />
+                <img src="/orange.png" alt="" className="absolute top-[2600px] left-0 z-[1] pointer-events-none" />
+
 
 
                 <AboutHeader />
