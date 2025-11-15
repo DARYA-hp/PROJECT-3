@@ -54,15 +54,15 @@ function Slide1() {
                 </div>
 
                 <div className="relative mt-12  ">
-                    <div className="flex justify-center items-center w-[385px] h-[270px] rounded-3xl bg-white mt-14 relative z-10">
+                    <div className="flex justify-center items-center w-[380px] h-[265px] rounded-3xl bg-white mt-14 relative z-10">
                         <img src="/3.jpg" alt="" className="rounded-2xl w-[365px] h-[250px]" />
                     </div>
 
-                    <div className="absolute top-[160px] left-[210px] flex justify-center items-center w-[254px] h-[320px] rounded-3xl bg-white z-20 shadow-lg">
+                    <div className="absolute top-[160px] left-[210px] flex justify-center items-center w-[250px] h-[315px] rounded-3xl bg-white z-20 shadow-lg">
                         <img src="/2.jpg" alt="" className="rounded-2xl object-cover w-[235px] h-[300px]" />
                     </div>
 
-                    <div className="absolute top-[230px] right-[190px] flex justify-center items-center w-[350px] h-[192px] rounded-3xl bg-white z-30 shadow-xl">
+                    <div className="absolute top-[230px] right-[190px] flex justify-center items-center w-[345px] h-[187px] rounded-3xl bg-white z-30 shadow-xl">
                         <img src="/4.jpg" alt="" className="rounded-2xl object-cover w-[330px] h-[172px]" />
                     </div>
                 </div>
