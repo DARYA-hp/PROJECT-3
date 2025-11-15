@@ -13,7 +13,7 @@ function Header() {
                         <li className="cursor-pointer" onClick={() => navigate("/")}>HOME</li>
                         <li className="cursor-pointer" onClick={() => navigate("/Market")}>MARKET</li>
                         <li className="cursor-pointer" onClick={() => navigate("/About Us")}>ABOUT US</li>
-                        <li className="cursor-pointer" onClick={() => navigate("/")}>CONTACT US</li>
+                        <li className="cursor-pointer" onClick={() => navigate("/Contact Us")}>CONTACT US</li>
                     </ul>
                     <button className=" text-[16px] font-[600] text-[#1DAEFF] border-2 border-[#1DAEFF] py-[7px] px-[32px] rounded-xl">LOG IN</button>
                 </div>
