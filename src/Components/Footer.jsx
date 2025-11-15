@@ -3,7 +3,10 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsArrowRightCircleFill } from "react-icons/bs";
+import { useNavigate, useLocation } from "react-router-dom";
 function Footer() {
+    const navigate = useNavigate();
+    const location = useLocation();
     return (
         <>
             <div className="relative overflow-hidden pt-36 pb-14 px-28 flex flex-row justify-between">
@@ -24,18 +27,18 @@ function Footer() {
                         <li>Features</li>
                         <li>Partners</li>
                         <li>Pricing</li>
-                        <li>Product</li>
+                        <li className="cursor-pointer" onClick={() => navigate("/Product")}>Product</li>
                         <li>Support</li>
                     </ul>
                 </div>
                 <div>
                     <p className=" text-[20px] font-[600]">Our Company</p>
                     <ul className=" flex flex-col gap-6 pt-5 text-[18px] font-[500]">
-                        <li>About Us</li>
+                        <li className="cursor-pointer" onClick={() => navigate("/About Us")}>About Us</li>
                         <li>Agents</li>
                         <li>Blog</li>
                         <li>Media</li>
-                        <li>Contact Us</li>
+                        <li className="cursor-pointer" onClick={() => navigate("/Contact Us")}>Contact Us</li>
                     </ul>
                 </div>
                 <div>
