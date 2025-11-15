@@ -5,6 +5,8 @@ import Product from "./Pages/Product"
 import HomePage from "./Pages/Homepage"
 import Market from './Pages/Market';
 import AboutUs1 from "./Pages/AboutUs1"
+import { Contact } from 'lucide-react';
+import ContactUs from './Pages/ContactUs';
 function App() {
   return (
     <>
@@ -14,7 +16,7 @@ function App() {
           <Route path="/Product" element={<Layout><Product /></Layout>} />
           <Route path="/About Us" element={<Layout><AboutUs1/></Layout>}/>
           <Route path="/Market" element={<Layout><Market /></Layout>} />
-
+          <Route path="/Contact Us" element={<Layout><ContactUs/></Layout>}/>
         </Routes>
       </Router>
     </>
