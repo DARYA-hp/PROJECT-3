@@ -6,12 +6,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useRef } from "react";
-
+import { useNavigate, useLocation } from "react-router-dom";
 
 function AboutSlide3() {
 
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+  const navigate = useNavigate();
+  const location = useLocation();
 
 
   return (
@@ -95,7 +97,8 @@ function AboutSlide3() {
               We provide a complete service for the sale, purchase or rental of real estate.
             </p>
             <div className="pt-8">
-              <button className="text-white font-[550] bg-[#1DAEFF] px-12 rounded-xl py-2">
+              <button className="text-white font-[550] bg-[#1DAEFF] px-12 rounded-xl py-2"
+              onClick={() => navigate("/Contact Us")}>
                 Contact Us
               </button>
             </div>

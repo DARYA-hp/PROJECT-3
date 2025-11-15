@@ -18,7 +18,7 @@ function AboutS2() {
                             </div>
                         </div>
                         <div className=" flex items-center -space-x-[400px] ">
-                            <img src="public/image3.png" alt="" className=" -mt-32 -ml-14 h-[470px]" />
+                            <img src="public/image3.png" alt="" className=" -mt-32 -ml-14 h-[400px]" />
                             <div className=" text-8xl pl-20 pb-20 hover:scale-110 transition"><IoMdPlay className=" text-[#C8E6C9]" /></div>
                         </div>
 
@@ -27,28 +27,28 @@ function AboutS2() {
 
                     <div className=" mb-20 ml-4  relative">
                         <div>
-                            <img src="public/image11.png" alt="" className=" h-[600px] w-[600px] " />
+                            <img src="public/image11.png" alt="" className=" h-[500px] w-[400px] " />
                         </div>
                         <div className=" relative">
-                            <div className=" absolute -top-[300px] right-[280px] translate-x-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] shadow-lg px-10 py-8 rounded-[30px] w-60">
+                            <div className=" absolute -top-[270px] right-[310px] translate-x-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] shadow-xl px-10 py-8 rounded-[30px] w-60">
                                 <img src="public/image12.png" alt="" className="  w-[70px] h-[70px]" />
                                 <h1 className=" text-3xl font-semibold font-Montserrat pt-4 dark:text-[#FFFFFFDE]">+100</h1>
                                 <p className=" text-xl font-Montserrat font-normal pt-1 dark:text-[#FFFFFFDE]">Supported Coins</p>
                             </div>
 
-                            <div className=" absolute bottom-72 right-0 translate-x-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] px-10 py-8 rounded-[30px] w-64">
+                            <div className=" absolute bottom-60 right-10 translate-x-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] px-10 py-8 rounded-[30px] w-64">
                                 <img src="public/image10.png" alt="" className=" w-[70px] h-[60px]" />
                                 <h1 className=" text-3xl font-semibold font-Montserrat pt-4 dark:text-[#FFFFFFDE]">+20M</h1>
                                 <p className=" text-xl font-Montserrat font-normal pt-1 dark:text-[#FFFFFFDE]">Open Wallets</p>
                             </div>
 
-                            <div className=" absolute bottom-0 right-[170px] translate-x-1/2 translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] px-10 py-8 rounded-[30px] w-64">
+                            <div className=" absolute bottom-0 right-[300px] translate-x-1/2 translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] px-10 py-8 rounded-[30px] w-64">
                                 <img src="public/image13.png" alt="" className=" w-[70px] h-[50px]" />
                                 <h1 className=" text-3xl font-semibold font-Montserrat pt-4 dark:text-[#FFFFFFDE]">+200K</h1>
                                 <p className=" text-xl font-Montserrat font-normal pt-1 dark:text-[#FFFFFFDE]">Registered Users</p>
                             </div>
 
-                            <div className=" absolute  right-0 bottom-0 translate-x-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] px-10 py-8 rounded-[30px] w-64">
+                            <div className=" absolute right-0 -bottom-0 mt-10 translate-x-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#17191C] px-10 py-8 rounded-[30px] w-64">
                                 <img src="image14.png" alt="" className=" w-[70px] h-[60px]" />
                                 <h1 className=" text-3xl font-semibold font-Montserrat pt-4 dark:text-[#FFFFFFDE]">+50M</h1>
                                 <p className=" text-xl font-Montserrat font-normal pt-1 dark:text-[#FFFFFFDE]">USD Invested</p>

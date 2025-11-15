@@ -1,4 +1,7 @@
+import { useNavigate, useLocation } from "react-router-dom";
 function Slide3() {
+    const navigate = useNavigate();
+    const location = useLocation();
     const properties = [
         { id: 1, img: "/13.jpg", title: "103/143 West Street, Crows Nest", bedrooms: 10, area: 150, garage: 2, builder: "X Builder", price: "$45,545" },
         { id: 2, img: "/14.jpg", title: "103/143 West Street, Crows Nest", bedrooms: 10, area: 150, garage: 2, builder: "X Builder", price: "$45,545" },
@@ -58,7 +61,8 @@ function Slide3() {
                             We provide a complete service for the sale, purchase or rental of real estate.
                         </p>
                         <div className="pt-8">
-                            <button className="text-white font-[550] bg-[#1DAEFF] px-12 rounded-xl py-2">
+                            <button className="text-white font-[550] bg-[#1DAEFF] px-12 rounded-xl py-2"
+                                onClick={() => navigate("/Contact Us")}>
                                 Contact Us
                             </button>
                         </div>

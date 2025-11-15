@@ -6,7 +6,7 @@ import { TiTick } from "react-icons/ti";
 function AboutS1() {
     return (
         <div className="relative w-full bg-white transition-colors duration-300">
-            <div className=" pl-20 pt-28">
+            <div className=" pl-20 pt-40">
                 <div className="grid lg:grid-cols-2 items-center justify-around">
                     <div className="relative">
                         <div>

@@ -11,7 +11,7 @@ function MarketHeader(){
                 </div>
             </div>
             <div>
-                <img src="/image1.png" alt="" className=" ml-32 w-64 h-[336px]"/>
+                <img src="/image1.png" alt="" className=" ml-32 w-64 h-[336px] -scale-x-100"/>
             </div>
         </div>
         
