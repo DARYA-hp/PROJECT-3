@@ -10,7 +10,7 @@ function Header() {
                 </div>
                 <div className=" flex  flex-row justify-center items-center gap-12">
                     <ul className="flex gap-20 text-[16px] font-[600]">
-                        <li className="cursor-pointer" onClick={() => navigate("/HomePage")}>HOME</li>
+                        <li className="cursor-pointer" onClick={() => navigate("/")}>HOME</li>
                         <li className="cursor-pointer" onClick={() => navigate("/Market")}>MARKET</li>
                         <li className="cursor-pointer" onClick={() => navigate("/About Us")}>ABOUT US</li>
                         <li className="cursor-pointer" onClick={() => navigate("/")}>CONTACT US</li>
